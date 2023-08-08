@@ -9,8 +9,13 @@
   "description": "Curso TabNews",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "prettier": "^3.0.1"
+  },
   "scripts": {
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
