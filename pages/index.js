@@ -1,5 +1,5 @@
 function Home() {
-  return <h1>Teste para subir na vercel</h1>;
+  return <h1>Teste</h1>;
 }
 function teste() {
   console.log("Hi");
